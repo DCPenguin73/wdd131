@@ -1,0 +1,41 @@
+*{
+    font-family: 'Times New Roman', Times, serif;
+}
+body{
+    border: 1px solid black;
+    padding: 8% 22.5% 3% 22.5%;
+    margin: 7% 8% 7% 8%;
+    height: 100%;
+    
+    
+}
+main{
+    height: 100%;
+    font-size: 20px;
+    text-align: left;
+    line-height: 1.6;
+}
+h1{
+    text-align: center;
+    letter-spacing: 4.5px;
+    font-size: 40px;
+}
+h2{
+    text-align: center;
+    color: #006EB6;
+    border-bottom: 1px solid black;
+    /* margin-left: 15%; */
+    /* margin-right: 15%; */
+    letter-spacing: 2px;
+    font-size: 18px;
+}
+.italics{
+    font-style: italic;
+}
+img{
+    display: block;
+    margin-top: 10%;
+    margin-left: auto;
+    margin-right: auto;
+    width: 35%;
+}
