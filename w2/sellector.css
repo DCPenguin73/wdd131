@@ -1,0 +1,3 @@
+fieldset:nth-of-type(2) ~ fieldset p {
+    display: none;
+}
