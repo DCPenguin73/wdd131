@@ -53,7 +53,7 @@ function viewHandler(event) {
     console.log('after insert');
 
 	// add a listener to the close button (X) that calls a function called closeViewer when clicked
-    document.querySelector(".close-viewer").addEventListener("click", closeViewer());
+    document.querySelector(".close-viewer").addEventListener("click", closeViewer);
 
 }
 
