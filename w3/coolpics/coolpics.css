@@ -74,6 +74,32 @@ main {
     text-align: center;
 }
 
+.viewer{
+    position: fixed;
+    top: 0;left: 0;bottom: 0;right: 0;
+    background-color: rgba(0, 0, 0, 0.75);
+    display: grid;
+    grid-template-columns: 1fr;
+    align-content: center;
+    justify-content: center;
+    z-index: 10;
+    color: #ffffff;
+    max-height: 100%;
+    .close-viewer{
+        position: relative;
+        top: 0; right: 0;
+        color: #ffffff;
+        text-align: right;
+        background-color: rgba(0, 0, 0, 0);
+    }
+    img {
+        max-height: 100%;
+        object-fit: contain;
+        padding: 1em;
+    }
+
+}
+
 @media (min-width: 700px) and (max-width: 999px) {
     section.gallery {
         grid-template-columns: 1fr 1fr;
@@ -90,7 +116,13 @@ main {
     a {
         padding: 0.5em 1em;
     }
-    button {
+    button.menu {
         display: none;
+    }
+    .viewer{
+        top: 3rem; left: 2rem; bottom: 3rem; right: 2rem;
+        /* padding: 5em; */
+        
+        
     }
 }
