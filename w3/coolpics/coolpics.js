@@ -34,7 +34,7 @@ function viewerTemplate(pic, alt) {
 }
 
 function viewHandler(event) {
-    console.log('in viewHandler', event.target);
+    // console.log('in viewHandler', event.target);
 	// create a variable to hold the element that was clicked on from event.target
     let clickedElement = event.target;
 	// get the src attribute from that element and 'split' it on the "-"
@@ -50,7 +50,7 @@ function viewHandler(event) {
     // console.log(test);
     document.body.insertAdjacentHTML("afterbegin", test);
     
-    console.log('after insert');
+    // console.log('after insert');
 
 	// add a listener to the close button (X) that calls a function called closeViewer when clicked
     document.querySelector(".close-viewer").addEventListener("click", closeViewer);
