@@ -27,30 +27,31 @@ const articles = [
 ]
 
 document.addEventListener('DOMContentLoaded', () => {
+    const filterButton = document.querySelector('#filter-button');
     const filterBox = document.querySelector('.filter-box');
-    const toggleButton = document.createElement('button');
-    toggleButton.textContent = 'Toggle Filters';
-    toggleButton.classList.add('toggle-button');
 
-    toggleButton.addEventListener('click', () => {
-        filterBox.classList.toggle('collapsed');
+    filterButton.addEventListener('click', () => {
+        filterBox.classList.toggle('minimized');
+        if (filterBox.classList.contains('minimized')) {
+            filterBox.style.height = '100px'; // Adjust height as needed
+            filterBox.style.overflowY = 'scroll';
+        } else {
+            filterBox.style.height = ''; // Reset height
+            filterBox.style.overflowY = ''; // Reset overflow
+        }
     });
 
-    document.body.insertBefore(toggleButton, filterBox);
+    const handleResize = () => {
+        if (window.innerWidth > 768) {
+            filterButton.style.display = 'none';
+            filterBox.classList.remove('minimized');
+            filterBox.style.height = ''; // Reset height
+            filterBox.style.overflowY = ''; // Reset overflow
+        } else {
+            filterButton.style.display = 'block';
+        }
+    };
 
-    const style = document.createElement('style');
-    style.textContent = `
-        .filter-box.collapsed {
-            display: none;
-        }
-        .toggle-button {
-            display: none;
-        }
-        @media (max-width: 600px) {
-            .toggle-button {
-                display: block;
-            }
-        }
-    `;
-    document.head.appendChild(style);
+    window.addEventListener('resize', handleResize);
+    handleResize();
 });

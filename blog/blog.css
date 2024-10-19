@@ -15,7 +15,7 @@ a :hover {
   color: #00ddff;
   text-decoration: underline;
 }
-a :active {
+a :focus {
   color: #DEB887;
   text-decoration: none;
 }
@@ -60,6 +60,30 @@ ul {
     grid-column: 2 / 3;
     border: #333 solid 2px;
     height: 30em;
+}
+.skiptocontent a {
+  position: absolute;
+    top: -40px;
+}
+.skiptocontent a:focus {
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+  z-index: 1000;
+}
+.title {
+    color: rgb(142, 47, 231);
+}
+p a {
+    color: rgb(142, 47, 231);
+}
+li a {
+    color: rgb(142, 47, 231);
+    font-weight: bold;
 }
 
 
@@ -121,8 +145,8 @@ ul {
     ul {
       font-size: 1em;
       text-transform: uppercase;
-      border-top: 2px solid #d0d0d0;
-      border-bottom: 2px solid #d0d0d0;
+      border-top: 3px solid #8c8c8c;
+      border-bottom: 3px solid #d0d0d0;
       display: flex;
       justify-content: end;
       margin-bottom: 1.5em;
