@@ -1,0 +1,205 @@
+@import url("https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap");
+/* Add css for any size of screen here */
+@import url("https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap");
+/* Add css for any size of screen here */
+a {
+  color: #666;
+  font-family: "Lora", serif;
+  text-decoration: none;
+}
+a :visited {
+  color: #666;
+  text-decoration: none;
+}
+a :hover {
+  color: #00ddff;
+  text-decoration: underline;
+}
+a :active {
+  color: #DEB887;
+  text-decoration: none;
+}
+
+h1 a {
+  color: #333;
+}
+h1 a :hover {
+    color: #00ddff;
+    text-decoration: underline;
+}
+h1 a :visited {
+  color: #333;
+}
+
+header {
+  font-family: "Lora", serif;
+  text-align: center;
+}
+
+h1, h2, h3, h4, h5 {
+  font-family: "Lora", serif;
+  text-align: center;
+}
+
+body {
+  font-family: Helvetica, Arial, sans-serif;
+  color: #333;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+.filter-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-right: 2px solid #d0d0d0;
+    grid-column: 2 / 3;
+    border: #333 solid 2px;
+    height: 30em;
+}
+
+
+/* Styles for screens smaller than 600px */
+@media (max-width: 600px) {
+    /* Add your CSS styles here */
+    h1 {
+      font-size: 4em;
+      font-weight: bold;
+    }
+    ul {
+      font-size: 1.3em;
+      text-transform: uppercase;
+      border-top: 2px solid #d0d0d0;
+      border-bottom: 2px solid #d0d0d0;
+    }
+    li {
+      padding: 0.5em;
+    }
+    article {
+      border-bottom: 2px solid #d0d0d0;
+    }
+    h2 {
+      font-size: 1.5em;
+      text-align: left;
+      padding-left: 0.5em;
+      padding-right: 0.5em;
+      padding-bottom: 0em;
+    }
+    .post-date {
+      border-bottom: 2px solid #d0d0d0;
+      text-transform: uppercase;
+      font-size: 1.5em;
+      text-align: right;
+      padding: 0.5em;
+      padding-top: 1em;
+    }
+    .post-content {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+    }
+    .post-content p {
+      font-size: 1em;
+      font-weight: bold;
+      padding-left: 0.5em;
+      padding-right: 0.5em;
+      padding-bottom: 0em;
+    }
+  }
+  /* Styles for screens bigger than 601px */
+  @media (min-width: 601px) {
+    /* Add your CSS styles here */
+    h1 {
+      font-size: 3em;
+      font-weight: bold;
+    }
+    ul {
+      font-size: 1em;
+      text-transform: uppercase;
+      border-top: 2px solid #d0d0d0;
+      border-bottom: 2px solid #d0d0d0;
+      display: flex;
+      justify-content: end;
+      margin-bottom: 1.5em;
+    }
+    li {
+      padding: 0.5em;
+    }
+    main {
+      display: grid;
+      grid-template-columns: 3fr 1fr; ;
+      padding: 0em;
+    }
+    
+    .article1 {
+        grid-row: 1 / 2;
+    }
+    article {
+      display: grid;
+      grid-template-columns: 1fr 2fr;
+      padding: 0em;
+      padding-bottom: 1em;
+      grid-column: 1 / 2;
+    }
+    .post-sidebar {
+      display: flex;
+      justify-content: start;
+      align-items: end;
+      text-align: left;
+      flex-direction: column;
+      grid-column: 1 / 2;
+      border-right: 2px solid #d0d0d0;
+      height: 30em;
+      padding-right: .5em;
+    }
+    .post-sidebar p {
+        font-size: 1em;
+        
+        padding-left: 0.5em;
+        padding-right: 0.5em;
+        padding-bottom: 0em;
+        padding-top: 0em;
+    }
+    .post-date {
+      text-transform: uppercase;
+      font-size: 1.5em;
+      text-align: right;
+      padding: 0.5em;
+      padding-bottom: 0em;
+      margin-bottom: 0em;
+      margin-top: 0em;
+      padding-top: 1em;
+      border-right: 2px solid #d0d0d0;
+      min-width: 200px;
+    }
+    .post-content {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      /* border-bottom: 2px solid #d0d0d0; */
+    }
+    .post-content h2 {
+      font-size: 1.5em;
+      text-align: left;
+      align-self: flex-start;
+      padding-left: 0.5em;
+      padding-right: 0.5em;
+      padding-bottom: 0em;
+      padding-top: 0em;
+    }
+    .post-content p {
+      font-size: 1em;
+      font-weight: bold;
+      text-align: left;
+      padding-left: 0.5em;
+      padding-right: 0.5em;
+      padding-bottom: 0em;
+      padding-top: 0em;
+    }
+  }
