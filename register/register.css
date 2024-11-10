@@ -159,4 +159,13 @@
       width: 100%;
     }
   }
+  @media (min-width:569px){
+    .participants {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+    }
+    #add {
+      grid-column: 1/3;
+    }
+  }
   
