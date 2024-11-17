@@ -1,0 +1,125 @@
+.amatic-sc-regular {
+    font-family: "Amatic SC", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+  
+  .amatic-sc-bold {
+    font-family: "Amatic SC", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+img {
+	max-width: 100%;
+}
+
+  
+h1 {
+    font-size: 18vw;
+    font-family: 'Amatic SC', Arial, Helvetica, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    color: #000000;
+    /* text-shadow: 2px 2px 4px #000000; */
+}
+.logo {
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content:start;
+    align-items: end;
+    align-self: center;
+    padding: .5em;
+}
+.logo img {
+    max-width: 33.33%;
+}
+
+.search__bar {
+    border-radius: 8px;
+    border: solid 2px #000;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    padding: 0%;
+}
+.search__input {
+    border: none;
+    /* border-right: solid 2px #000; */
+    padding: 0em;
+    flex-grow: 1;
+    border-radius: 0;
+    height: 100%;
+    font-size: 1.25em;
+}
+.search__button {
+    width: 17%;
+    border: none;
+    border-left: solid 2.5px #000;
+    background: none;
+    padding: 0.5em;
+    cursor: pointer;
+}
+form {
+    padding: .5em;
+    align-self: center;
+}
+
+.recipe__container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: .5em;
+    margin: .5em;
+    border: solid 2px #000;
+    border-radius: 8px;
+    width: 90%;
+}
+.recipe__details {
+    width: 100%;
+    margin-bottom: 1.5em;
+}
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    flex-wrap: wrap;
+}
+li {
+    list-style-type: none;
+    padding: .5em;
+    /* margin: .5em; */
+    border: solid 2px #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 20%;
+    font-weight: bold;
+    font-size: 1.25em;
+}
+h2 {
+    font-size: 2.25em;
+    font-family: 'Amatic SC', Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color:rgb(54, 186, 239);
+    text-align: start;
+    margin: 0;
+    margin-top: .5em;
+    padding: 0;
+}
+.recipe__description {
+    display: none;
+    font-size: 1.25em;
+    font-family: 'Amatic SC', Arial, Helvetica, sans-serif;
+    text-align: start;
+    margin: 0;
+    padding: 0;
+}
+

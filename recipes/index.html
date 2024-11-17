@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recipe Book - Part 1</title>
+    <link rel="stylesheet" href="recipes.css">
+    <meta name="description" content="Recipe Book that holds recipes.">
+    <meta name="Author" content="Daniel Carr">
+    <link rel="icon" href="favicon.png" type="image/x-icon" />
+    <script src="recipes.js" defer></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <meta property="og:title" content="Recipe Book - Part 1">
+    <meta property="og:type" content="website" />
+    <meta property="og:description" content="Recipe Book that holds recipes.">
+    <meta property="og:image" content="images/recipe-book.png">
+    <meta property="og:url" content="URL of the page">
+    <meta name="twitter:card" content="Logo of page">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="images/recipe-book.png" alt="Recipe Book">
+            <h1>RECIPEBOOK</h1>
+        </div>
+        <form action="search.php" method="get" class="search">
+            <div class="search__bar">
+                <input type="text" name="search" id="search" placeholder="Search for recipes..." class="search__input">
+                <button type="submit" class="search__button">
+                    <img src="images/search.svg" alt="Search">
+                </button>
+            </div>
+        </form>
+    </header>
+    <main>
+        <section class="recipe__container">
+            <div>
+                <img src="images/apple-crisp.jpg" alt="apple-crisp">
+            </div>
+            <div class="recipe__details">
+                <ul>
+                    <li>dessert</li>
+                </ul>
+                <h2>Apple Crisp</h2>
+                <span class="rating" role="img" aria-label="Rating: 4 out of 5 stars">
+                    <span aria-hidden="true" class="icon-star">⭐</span>
+                    <span aria-hidden="true" class="icon-star">⭐</span>
+                    <span aria-hidden="true" class="icon-star">⭐</span>
+                    <span aria-hidden="true" class="icon-star-empty">⭐</span>
+                    <span aria-hidden="true" class="icon-star-empty">☆</span>
+                </span>
+                <p class="recipe__description">Apple Crisp is a classic dessert that is perfect for any occasion. It's easy to make and tastes delicious!</p>
+            </div>
+        </section>
+
+    </main>
+    <footer>
+        <p>&copy; 2024 Daniel Carr</p>
+        <a href="https://www.flaticon.com/free-icons/recipe" title="recipe icons">Recipe icons created by Freepik - Flaticon</a>
+        <div class="social">
+            <!-- Social media icons provided under CC from https://www.iconfinder.com/AlfredoCreates  -->
+            <a href="#"><img src="images/instagram_icon.svg" alt="instagram icon"></a>
+            <a href="#"><img src="images/youtube_icon.svg" alt="youtube icon"></a>
+            <a href="#"><img src="images/pinterest_icon.svg" alt="pinterest icon"></a>
+        </div>
+    </footer>
+</body>
+</html>
