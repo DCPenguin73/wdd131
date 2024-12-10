@@ -25,7 +25,7 @@ function displayBooks(filter) {
         card.dataset.completed = book.completed;
 
         card.innerHTML = `
-            <img src="${book.image}" alt="Book Cover">
+            <img src="${book.image}" class="book_img" alt="Book Cover">
             <h2>${book.title}</h2>
             <p><strong>Author:</strong> ${book.author}</p>
             <p><strong>Genre:</strong> ${book.genre}</p>

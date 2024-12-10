@@ -1,6 +1,6 @@
 export const books = [
     {
-        image: "https://upload.wikimedia.org/wikipedia/en/5/51/Dune_first_edition.jpg",
+        image: "https://upload.wikimedia.org/wikipedia/en/d/de/Dune-Frank_Herbert_%281965%29_First_edition.jpg",
         title: "Dune",
         author: "Frank Herbert",
         genre: "Sci-Fi",
@@ -18,7 +18,7 @@ export const books = [
         completed: false
     },
     {
-        image: "https://upload.wikimedia.org/wikipedia/en/6/6f/Ender%27s_Game_cover_ISBN_0312932081.jpg",
+        image: "https://upload.wikimedia.org/wikipedia/en/e/e4/Ender%27s_game_cover_ISBN_0312932081.jpg",
         title: "Ender's Game",
         author: "Orson Scott Card",
         genre: "Sci-Fi",
@@ -27,7 +27,7 @@ export const books = [
         completed: false
     },
     {
-        image: "https://upload.wikimedia.org/wikipedia/en/6/6b/Harry_Potter_and_the_Sorcerer%27s_Stone.jpg",
+        image: "https://upload.wikimedia.org/wikipedia/en/6/6b/Harry_Potter_and_the_Philosopher%27s_Stone_Book_Cover.jpg",
         title: "Harry Potter and the Sorcerer's Stone",
         author: "J.K. Rowling",
         genre: "Fantasy",
@@ -36,7 +36,7 @@ export const books = [
         completed: false
     },
     {
-        image: "https://upload.wikimedia.org/wikipedia/en/8/8d/The_Left_Hand_of_Darkness_%281st_ed%29.jpg",
+        image: "https://upload.wikimedia.org/wikipedia/en/8/88/TheLeftHandOfDarkness1stEd.jpg",
         title: "The Left Hand of Darkness",
         author: "Ursula K. Le Guin",
         genre: "Sci-Fi",
@@ -45,7 +45,7 @@ export const books = [
         completed: false
     },
     {
-        image: "https://upload.wikimedia.org/wikipedia/en/a/a4/Neuromancer_%28Book%29.jpg",
+        image: "https://upload.wikimedia.org/wikipedia/en/4/4b/Neuromancer_%28Book%29.jpg",
         title: "Neuromancer",
         author: "William Gibson",
         genre: "Sci-Fi",
@@ -54,7 +54,7 @@ export const books = [
         completed: false
     },
     {
-        image: "https://upload.wikimedia.org/wikipedia/en/2/2e/The_Name_of_the_Wind_cover.jpg",
+        image: "https://upload.wikimedia.org/wikipedia/en/5/56/TheNameoftheWind_cover.jpg",
         title: "The Name of the Wind",
         author: "Patrick Rothfuss",
         genre: "Fantasy",
@@ -63,7 +63,7 @@ export const books = [
         completed: false
     },
     {
-        image: "https://upload.wikimedia.org/wikipedia/en/2/25/Foundation_gnome.jpg",
+        image: "https://upload.wikimedia.org/wikipedia/en/d/d9/Foundation_-_Isaac_Asimov_%28Gnome_1951%29.jpg",
         title: "Foundation",
         author: "Isaac Asimov",
         genre: "Sci-Fi",
@@ -81,7 +81,7 @@ export const books = [
         completed: false
     },
     {
-        image: "https://upload.wikimedia.org/wikipedia/en/1/1b/Snow_Crash.jpg",
+        image: "https://upload.wikimedia.org/wikipedia/en/d/d5/Snowcrash.jpg",
         title: "Snow Crash",
         author: "Neal Stephenson",
         genre: "Sci-Fi",
@@ -90,7 +90,7 @@ export const books = [
         completed: false
     },
     {
-        image: "https://upload.wikimedia.org/wikipedia/en/2/2b/The_Way_of_Kings.jpg",
+        image: "https://upload.wikimedia.org/wikipedia/en/8/8b/TheWayOfKings.png",
         title: "The Way of Kings",
         author: "Brandon Sanderson",
         genre: "Fantasy",
@@ -99,7 +99,7 @@ export const books = [
         completed: false
     },
     {
-        image: "https://upload.wikimedia.org/wikipedia/en/7/7e/Hyperion_cover.jpg",
+        image: "https://upload.wikimedia.org/wikipedia/en/7/73/Hyperion_cover.jpg",
         title: "Hyperion",
         author: "Dan Simmons",
         genre: "Sci-Fi",
@@ -108,7 +108,7 @@ export const books = [
         completed: false
     },
     {
-        image: "https://upload.wikimedia.org/wikipedia/en/c/c3/The_Martian_2014.jpg",
+        image: "https://upload.wikimedia.org/wikipedia/commons/7/71/The_Martian_%28Weir_novel%29.jpg",
         title: "The Martian",
         author: "Andy Weir",
         genre: "Sci-Fi",
@@ -117,7 +117,7 @@ export const books = [
         completed: false
     },
     {
-        image: "https://upload.wikimedia.org/wikipedia/en/9/9f/The_Eye_of_the_World_%28book%29.jpg",
+        image: "https://upload.wikimedia.org/wikipedia/en/0/00/WoT01_TheEyeOfTheWorld.jpg",
         title: "The Eye of the World",
         author: "Robert Jordan",
         genre: "Fantasy",
@@ -135,7 +135,7 @@ export const books = [
         completed: false
     },
     {
-        image: "https://upload.wikimedia.org/wikipedia/en/6/6b/Good_Omens_cover.jpg",
+        image: "https://upload.wikimedia.org/wikipedia/en/0/0a/Goodomenscover.jpg",
         title: "Good Omens",
         author: "Neil Gaiman and Terry Pratchett",
         genre: "Fantasy",
@@ -144,7 +144,7 @@ export const books = [
         completed: false
     },
     {
-        image: "https://upload.wikimedia.org/wikipedia/en/5/52/Leviathan_Wakes.jpg",
+        image: "https://upload.wikimedia.org/wikipedia/en/0/08/Leviathan_Wakes.jpg",
         title: "The Expanse: Leviathan Wakes",
         author: "James S.A. Corey",
         genre: "Sci-Fi",
@@ -153,7 +153,7 @@ export const books = [
         completed: false
     },
     {
-        image: "https://upload.wikimedia.org/wikipedia/en/4/4b/The_Lies_of_Locke_Lamora.jpg",
+        image: "https://upload.wikimedia.org/wikipedia/en/b/b1/Locke_Lamora.jpg",
         title: "The Lies of Locke Lamora",
         author: "Scott Lynch",
         genre: "Fantasy",
@@ -162,7 +162,7 @@ export const books = [
         completed: false
     },
     {
-        image: "https://upload.wikimedia.org/wikipedia/en/8/8b/Altered_Carbon_cover_1.jpg",
+        image: "https://upload.wikimedia.org/wikipedia/en/7/79/Altered_Carbon_cover_1_%28Amazon%29.jpg",
         title: "Altered Carbon",
         author: "Richard K. Morgan",
         genre: "Sci-Fi",
